@@ -1,0 +1,29 @@
+[
+    {
+        "name": "osamaasset",
+        "policy": "OR('org1MSP.admin', 'org2MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true,
+        "memberOnlyWrite": true
+    },
+    {
+        "name": "osamatransactionorg1",
+        "policy": "OR('org1MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true,
+        "memberOnlyWrite": true
+    },
+    {
+        "name": "osamatransactionorg2",
+        "policy": "OR('org2MSP.admin')",
+        "requiredPeerCount": 0,
+        "maxPeerCount": 2,
+        "blockToLive": 0,
+        "memberOnlyRead": true,
+        "memberOnlyWrite": true
+    }
+]
